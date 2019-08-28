@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="utf-8">
+    <title>Editable List | Web Components</title>
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/shadydom/1.1.0/shadydom.min.js"></script-->
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/custom-elements/1.2.4/custom-elements.min.js"></script-->
+    <!--script src="https://unpkg.com/@babel/standalone/babel.min.js"></script-->
+
+      <!----- Если IE------>
+        <script src="Lib/babel.min.js"></script>
+        <script src="Lib/shadydom.min.js"></script>
+        <script src="Lib/custom-elements.min.js"></script>
+      <!-- ============= -->
+        <script src="Lib/component.js"></script>
+
+    </head>
+    <body>
+
+        <editable-list
+            title="TODO"
+            list-item-0="First item on the list"
+            list-item-1="Second item on the list"
+            list-item-2="Third item on the list"
+            list-item-3="Fourth item on the list"
+            list-item-4="Fifth item on the list"
+            listItem="This will not appear"
+            add-item-text="Add new list item:"
+        >
+        </editable-list>
+
+    </body>
+    </html>
